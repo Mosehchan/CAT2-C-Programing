@@ -7,8 +7,7 @@ date:7/11/2024
 #include <stdio.h>
 
 int main() {
-    // 
-01. Declare and initialize the 3D array
+    //Declare and initialize the 3D array
     int scores[2][2][2] = {
         {
             {65, 92},
@@ -20,8 +19,7 @@ int main() {
         }
     };
 
-    // 
-02. Print the elements of the array using nested for loops
+    //Print the elements of the array using nested for loops
     for (int i = 0; i < 2; i++) {
     for (int j = 0; j < 2; j++) {
     for (int k = 0; k < 2; k++) {
